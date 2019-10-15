@@ -1,6 +1,7 @@
 # terraform-switch
 
-A simple shell script to change the called `terraform` version.
+A simple shell script to change the called `terraform` version. 
+Used also to easily upgrade when a new version is released!
 
 # Usage
 
