@@ -25,7 +25,7 @@ then
 fi
 
 msg "Switching to terraform $1"
-tf_bin="/usr/local/bin/terraform"
+tf_bin="${HOME}/.local/bin/terraform"
 rm -f ${tf_bin} && ln -s "${TERRAFORM_CACHE}/terraform${TERRAFORM_VERSION}" ${tf_bin}
 
 msg "Done!"
